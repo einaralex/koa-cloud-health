@@ -1,0 +1,37 @@
+{
+  "name": "@restorecommerce/koa-health-check",
+  "version": "0.1.0",
+  "description": "Koa Connect middleware for Cloud Health",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && nyc --reporter=html mocha --timeout 30000 \\\"./dist/test/**/*.test.js\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.n-fuse.co:10022/restorecommerce/koa-cloud-health.git"
+  },
+  "keywords": [
+    "koa",
+    "health",
+    "kubernetes"
+  ],
+  "author": "Invend GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "@cloudnative/health": "^2.0.0",
+    "connect": "^3.6.6",
+    "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/koa": "^2.0.48",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.0.4",
+    "@types/sinon": "^7.0.12",
+    "chai": "^4.2.0",
+    "nyc": "^14.1.1",
+    "sinon": "^7.3.2",
+    "typescript": "^3.5.1"
+  }
+}

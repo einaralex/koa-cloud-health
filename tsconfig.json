@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "declaration": false,
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": [
+    "./lib/**/*.ts",
+    "./test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "doc"
+  ]
+}
