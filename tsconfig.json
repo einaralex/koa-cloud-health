@@ -7,13 +7,14 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "noUnusedLocals": true,
-    "declaration": false,
-    "outDir": "dist",
-    "sourceMap": true
+    "declaration": true,
+    "outDir": "lib",
+    "typeRoots": [
+      "node_modules/@types"
+    ]
   },
   "include": [
-    "./lib/**/*.ts",
-    "./test/**/*.ts"
+    "./src/**/*.ts"
   ],
   "exclude": [
     "node_modules",

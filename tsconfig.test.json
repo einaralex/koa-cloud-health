@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib_test"
+  },
+  "include": [
+    "./test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "lib",
+    "doc"
+  ]
+}

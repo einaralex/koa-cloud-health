@@ -1,6 +1,6 @@
 import {should} from 'chai';
 import {HealthChecker, LivenessCheck, ShutdownCheck, StartupCheck} from '@cloudnative/health';
-import {HealthEndpoint, LivenessEndpoint, ReadinessEndpoint} from '../index'
+import {HealthEndpoint, LivenessEndpoint, ReadinessEndpoint} from '../src'
 import {mockContext} from './test-helper';
 import * as koa from 'koa';
 
