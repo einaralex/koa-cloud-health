@@ -1,8 +1,19 @@
 {
-  "name": "koa-health-check",
+  "name": "@restorecommerce/koa-health-check",
   "version": "0.1.0",
-  "description": "Koa Connect middleware for Cloud Health",
+  "description": "Koa 2 middleware for Cloud Health",
   "main": "lib/index.js",
+  "author": "n-fuse Gmbh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/restorecommerce/koa-cloud-health.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "koa",
+    "health",
+    "kubernetes"
+  ],
   "scripts": {
     "build": "npm-run-all build:clean build:tsc",
     "build:clean": "rimraf lib",
@@ -14,17 +25,6 @@
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "postinstall": "npm-run-all build"
   },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@gitlab.n-fuse.co:10022/restorecommerce/koa-cloud-health.git"
-  },
-  "keywords": [
-    "koa",
-    "health",
-    "kubernetes"
-  ],
-  "author": "n-fuse Gmbh",
-  "license": "ISC",
   "dependencies": {
     "@cloudnative/health": "^2.0.0",
     "connect": "^3.6.6",
@@ -43,5 +43,8 @@
     "nyc": "^14.1.1",
     "rimraf": "^2.6.3",
     "typescript": "^3.5.1"
+  },
+  "engines": {
+    "node": ">= 8.0.0"
   }
 }
