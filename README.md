@@ -1,5 +1,12 @@
 # Koa Health Check
 
+<img src="http://img.shields.io/npm/v/%40restorecommerce%2Fkoa%2Dcloud%2Dhealth.svg?style=flat-square" alt="">[![Build Status][build]](https://travis-ci.org/restorecommerce/koa-cloud-health?branch=master)[![Dependencies][depend]](https://david-dm.org/restorecommerce/koa-cloud-health)[![Coverage Status][cover]](https://coveralls.io/github/restorecommerce/koa-cloud-health?branch=master)
+
+[version]: http://img.shields.io/npm/v/koa-cloud-health.svg?style=flat-square
+[build]: http://img.shields.io/travis/restorecommerce/koa-cloud-health/master.svg?style=flat-square
+[depend]: https://img.shields.io/david/restorecommerce/koa-cloud-health.svg?style=flat-square
+[cover]: http://img.shields.io/coveralls/restorecommerce/koa-cloud-health/master.svg?style=flat-square
+
 Cloud Health Connect provides a Middleware based on
 [Cloud Health](https://github.com/CloudNativeJS/cloud-health) for use with Koa a:
 
@@ -33,7 +40,7 @@ koa.all('/health', HealthEndpoint(healthcheck));
 | DOWN                | 503 UNAVAILABLE       | 503 UNAVAILABLE      | 503 UNAVAILABLE             |
 | STOPPING            | 503 UNAVAILABLE       | 503 UNAVAILABLE      | 503 UNAVAILABLE             |
 | STOPPED             | 503 UNAVAILABLE       | 503 UNAVAILABLE      | 503 UNAVAILABLE             |
-| -		              | 500 SERVER ERROR      | 500 SERVER ERROR     | 500 SERVER ERROR            |
+| -		                | 500 SERVER ERROR      | 500 SERVER ERROR     | 500 SERVER ERROR            |
 
 ## Development
 
