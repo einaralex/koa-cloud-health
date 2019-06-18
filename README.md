@@ -1,6 +1,6 @@
 # Koa Health Check
 
-<img src="http://img.shields.io/npm/v/%40restorecommerce%2Fkoa%2Dcloud%2Dhealth.svg?style=flat-square" alt="">[![Build Status][build]](https://travis-ci.org/restorecommerce/koa-cloud-health?branch=master)[![Dependencies][depend]](https://david-dm.org/restorecommerce/koa-cloud-health)[![Coverage Status][cover]](https://coveralls.io/github/restorecommerce/koa-cloud-health?branch=master)
+![npm](https://img.shields.io/npm/v/@restorecommerce/koa-health-check.svg?style=flat-square)[![Build Status][build]](https://travis-ci.org/restorecommerce/koa-cloud-health?branch=master)[![Dependencies][depend]](https://david-dm.org/restorecommerce/koa-cloud-health)[![Coverage Status][cover]](https://coveralls.io/github/restorecommerce/koa-cloud-health?branch=master)
 
 [version]: http://img.shields.io/npm/v/koa-cloud-health.svg?style=flat-square
 [build]: http://img.shields.io/travis/restorecommerce/koa-cloud-health/master.svg?style=flat-square
