@@ -1,6 +1,6 @@
 {
   "name": "@restorecommerce/koa-health-check",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Koa 2 middleware for Cloud Health",
   "main": "lib/index.js",
   "author": "n-fuse Gmbh",
@@ -25,24 +25,24 @@
   "dependencies": {
     "@cloudnative/health": "^2.0.0",
     "connect": "^3.6.6",
-    "koa": "^2.7.0"
+    "koa": "^2.7.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^3.5.2"
   },
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^0.1.3",
     "@types/chai": "^4.1.7",
     "@types/koa": "^2.0.48",
     "@types/mocha": "^5.2.7",
-    "@types/node": "^12.0.5",
-    "@types/sinon": "^7.0.12",
+    "@types/node": "^12.0.8",
+    "@types/sinon": "^7.0.13",
     "chai": "^4.2.0",
     "coveralls": "^3.0.4",
     "mocha": "^6.1.4",
-    "npm-run-all": "^4.1.5",
     "nyc": "^14.1.1",
     "rimraf": "^2.6.3",
     "source-map-support": "^0.5.12",
-    "ts-node": "^8.2.0",
-    "typescript": "^3.5.1"
+    "ts-node": "^8.3.0"
   },
   "engines": {
     "node": ">= 8.0.0"
